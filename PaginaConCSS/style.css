@@ -1,1 +1,60 @@
+.headerSup{
+    text-align: center;
+}
+.headerSup a {
+    color: #000000;
+    margin-left: 10px;
+}
+.headerMidLogo {
+    display: block;
+    border: solid 1px #000000;
 
+}
+.logoLeft {
+    display: block;
+    border: solid 1px #000000;
+    width: 160px;
+    height: auto;
+}
+.logoCenter {
+    display: block;
+    border: solid 1px #000000;
+    width: 300px;
+    height: auto;
+    margin-left: 200px;
+}
+.logoRight {
+    display: block;
+    border: solid 1px #000000;
+    width: 170px;
+    height: auto;
+    margin-left: 85%;
+}
+.redesSociales {
+    float: right;
+}
+
+h2 {
+    margin-right: 35%;
+}
+.contenedorTexto {
+    display: block;
+    border: solid 1px #000000;
+    margin-right: 30%;
+}
+/* Etiquetas */
+.etiquetas {
+    margin-top: 50px;
+}
+.etiquetas button {
+    margin-left: 10px;
+    
+}
+/* Pie de pagina */
+.pieDePagina {
+    margin-top: 50px;
+}
+.pieDePagina img {
+    width: 200px;
+    height: 100px;
+}
