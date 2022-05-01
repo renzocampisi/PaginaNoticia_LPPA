@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaginaConCSS</title>
+    <link href="style.css" rel="Stylesheet">
 </head>
 <body>
     <header> <!-- Encabezado de la pagina -->
-        <div style="text-align: center;">
+        <div class="headerSup">
             <a href="https://inmuebles.lacapital.com.ar/"> INMUEBLES </a>
             <a href="https://motores.lacapital.com.ar/motores/"> MOTORES </a>
             <a href="https://www.lacapital.com.ar/secciones/trabajo.html"> TRABAJO </a>
@@ -16,22 +17,22 @@
             <a href="https://funebres.lacapital.com.ar/funebres/publicar/"> FUNEBRES </a>
         </div>
         <!-- Contenedor con imagen del logo y botones-->
-            <div>
-                <div style="text-align: left;">
+            <div class="headerMidLogo">
+                <div class="logoLeft">
                     <button> Menu </button>
                     <button> Notificaciones </button>
                 </div>
                 <!-- Imagen del Logo -->
-                <div style="text-align: center;">
-                    <img src="Images/Logo_de_La_Capital_de_Rosario.svg.png" alt="LogoLaCapital" width="300" height="50">
+                <div class="logoCenter">
+                    <img src="Imagenes/Logo_de_La_Capital_de_Rosario.svg.png" alt="LogoLaCapital" width="300" height="50">
                 </div>
-                <div style="text-align: right;">
+                <div class="logoRight">
                     <button> Subscribirme </button>
                     <button> Ingresar </button>
                 </div>
             </div>
         <!-- Barra de menu-->
-        <nav style="text-align: center;"> 
+        <nav> 
                 <a href="https://www.lacapital.com.ar/secciones/ultimo-momento.html"> Ultimas noticias </a>
                 <a href="https://www.lacapital.com.ar/secciones/laciudad.html"> Ciudad </a>
                 <a href="https://www.lacapital.com.ar/secciones/ovacion.html"> Ovacion </a> 
@@ -42,6 +43,19 @@
                 <a href="https://www.agroclave.com.ar/"> Agroclave </a> 
         </nav>
     </header>
+    <!-- Redes Sociales -->
+    <div class="redesSociales">
+        <ul>
+            <li>
+                
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
     <!-- Cuerpo de la noticia -->
     <div>
         <!-- Titulo de la noticia -->
@@ -56,48 +70,55 @@
     <!-- Imagen con pie de foto -->
     <div >
         <div>
-            <img src="C:\Users\ren_9\OneDrive\Documentos\Renzo\Facultad\LPPA\PaginaNoticia_LPPA\Images\Imagen Principal_Cocinero.jpg" alt="imagenCocinero">
-        </div>
-        <div>
-            <h5> Pablo Rivero, el rosarino fanático de Newell's que está al frente de Don Julio, el segundo mejor restaurante de carnes del mundo </h5>
+            <img src="Imagenes/imagen1_principio.jpg" alt="imagenPrincipal">
         </div>
     </div>
     <!-- Contenido de texto e imagenes de la noticia -->
-    <section>
-        <p> "Estamos muy felices. Lo que tratamos es tratar de llevar a la máxima expresión nuestra cocina".<b>Pablo Rivero</b> , rosarino e hincha fanático de <a href="https://www.lacapital.com.ar/newell-a32681.html">Newell's</a>, habla a la distancia y no oculta su emoción. Su <b>negocio</b>, Don Julio -ubicado en el coqueto barrio porteño de Palermo-, fue elegido como el segundo mejor restaurante de carnes del mundo. </p>
-        <p> La elección la realizó la firma británica <a href="https://www.worldbeststeaks.com/">Upper Cut Media House</a> a través de las opiniones de editores y especialistas independientes que anualmente <b>evalúan entre 500 y 700 restaurantes de carne de todo el mundo</b>. </p>
-        <p> <b>"Una catedral para los carnívoros en la fantástica Buenos Aires"</b>, así se describe al restaurante ubicado Guatemala y Gurruchaga en el portal Worldbeststeaks.com donde se publica el ranking de los 101 mejores restaurantes de carne del mundo. Don Julio es el único establecimiento latinoamericano en el top 10 </p>
-            <div>           
-                <img src="Images/parrilla-don-julio.jpg" alt="establecimientoPorFuera">
-            </div>
-        <p> Este miércoles, en declaraciones al programa <b>"El primero de la mañana"</b>, de LT8, Rivero explicó que para el ranking <b>no se elige un corte de carne en particular o un plato especial: "Se computa como establecimiento, como propuesta gastronómica</b>. Evalúan lo significativo de cada propuesta. Lo que hacemos es <b>tratar de llevar a la máxima expresión nuestra cocina, ser meticulosos y cuidadosos en la selección de nuestros productos</b>. Se trata de mostrar nuestra cultura, mostrar la tradición con la evolución. No sé si eso es lo que valoran pero es lo que nosotros mostramos". </p>
-        <p> Leer mas: <a href="https://www.lacapital.com.ar/la-ciudad/un-rosarino-fue-distinguido-tener-uno-los-mejores-restaurantes-del-mundo-n2507761.html"> Un rosarino fue distinguido por tener uno de los mejores restaurantes del mundo </a></p>
-        <p> Acerca de si la parrilla se especializaba en algún corte presentado de alguna forma en especial, el hincha leproso titular de DJ destacó que <b>"los cortes están presentados con una estética que tiene el restaurante, que también tiene que ver con el concepto del lugar. Pero no hay nada especial y llamativo. Lo especial está detrás del producto</b>. El corte de carne tiene una selección, una trazabilidad y eso compone algo que se valora mucho. No es simplemente carne, nosotros pensamos en mostrar paisajes culinarios dentro de un plato" </p>
-        <p> Sobre su amor por los colores rojo y negro dijo que "cada vez que juega Newell's me llego a Rosario. Soy socio vitalicio y fanático, y mis hijos también. Hace muchos años que hago directo Buenos Aires-Parque Independencia. Hice la primaria en Rosario y viví muchos veranos en la casa de mi abuela, así que tengo recuerdo muy lindos". </p>
-        <p> <b>El ranking de los mejores restaurantes de carne del mundo</b> </p>
-        <p> El primer puesto quedó para el restaurante Hawksmoor de Londres, que despojó del trono al ganador de las ediciones 2020 y 2021, el restaurante Firedoor de Sidney, quien descendió al tercer lugar. </p>
-            <div>
-                <img src="images/parrilla-don-julio-palermo.jpg" alt="establecimientoPorDentro">
-            </div>
-        <p> El top 10 lo completan Keens en Nueva York -EEUU- en el puesto 4; Gibsons Italia en Chicago -EEUU en el puesto 5; Cut en Beverly Hills -EEUU- en el puesto 6; Bavette’s Steak House en Las Vegas -EEUU- en el puesto 7; Carcasse en Koksjide -Bélgica- en el puesto 8; El Capricho en Jiménez de Jamuz -España- en el puesto 9 y Nick’s & Stef’s Steak House en Los Ángeles -EEUU- en el puesto 19. </p>
-        <p> Otros restaurantes argentinos que ingresaron al ranking fueron La Cabrera (José Antonio Cabrera 5157) y La Brigada (Estados Unidos 465), en el puesto 41 y 60, respectivamente. Ambos son de Capital Federal. </p>
+    <section class="contenedorTexto">
+        <p>El gobierno de China aprobó la variedad de soja tolerante a sequía HB4 de la compañía argentina Bioceres, que ya estaba autorizada a nivel nacional y en otros países del mundo, lo que habilitará la comercialización de este desarrollo biotecnológico al principal importador y consumidor de la oleaginosa.</p>
+        <div>
+            <p>En una publicación en redes sociales la empresa con sede en Rosario y que cotiza en Wall Street, confirmó la noticia y detalló que “se trata de la primera vez que China aprueba un desarrollo transgénico argentino”.</p>
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+        </div>
+        <p> La soja HB4 tolerante a sequía fue aprobada en 2015 por Argentina y luego también por los países de mayor producción mundial de este cultivo como Estados Unidos, Brasil y Paraguay en el año 2019 y Canadá en 2021. </p>
+        <p> La tecnología HB4 se desarrolló a partir de un descubrimiento realizado por profesionales de la Universidad Nacional del Litoral y el Consejo Nacional de Investigaciones Científicas y Técnicas (Conicet) liderados por la doctora Raquel Chan. En las etapas tempranas de este proyecto, Bioceres, obtuvo la licencia para desarrollar la tecnología en especies de interés agronómico, iniciar estudios a campo y realizar todos los procesos necesarios para que los distintos cultivos modificados alcancen el mercado. </p>
+        <P> Esta tecnología, la única de este tipo a nivel mundial para el cultivo de soja, brindará la posibilidad estabilizar los rendimientos en áreas que experimentan problemas recurrentes de estrés hídrico, al mejorar hasta en un 20% los resultados, con respecto a las variedades de soja tradicionales, según ensayos realizados en 9 campañas y en más de 50 ambientes. </P>
+        <div>
+            <img src="Imagenes/imagen3_principio.jpg" alt="imagenTexto">
+            <p>Proyección. Trucco precisó que la soja HB4 podría llegar a 21 millones de hectáreas.</p>
+        </div>
+        <p> Para que la soja HB4 llegue a los campos argentinos restaba la aprobación de China como mercado de consumo. “Es necesario para el lanzamiento en Argentina, pero no así en Brasil y Estados Unidos. El único país que nos impuso la aprobación es Argentina, siguiendo usos y costumbres, y una vez que eso ocurra se pueden comercializar libremente en los tres países”, detalló el presidente de Bioceres, Federico Trucco en el año 2019 durante una entrevista con La Capital. </p>
+        <p> “Fue como un sueño cumplido ver de que una tecnología que salió de la provincia de Santa Fe, de la Universidad Nacional del Litoral, fue subiendo y primero logró la aprobación local, después en Brasil y finalmente en la meca de la biotecnología mundial que es el mercado norteamericano”, agregó.</p>
+        <p> La compañía apuntó a resolver un problema que viene aquejando a la agricultura argentina en los últimos años con períodos de ciclos Niña, caracterizados por fuertes sequías. También para apuntalar la tecnología hacia un cultivo que viene en retroceso en el país y para el cual hay menor cantidad de desarrollos disponibles en los últimos años. En la campaña 2020/21 la producción de soja llegó a las 45 millones de toneladas, mientras que este nivel se redujo a 41,2 millones en el ciclo 2021/22. </p>
+        <div>
+            <img src="Imagenes/imagen2_texto.jpg" alt="imagenBolsasSoja">
+        </div>
+        <p> Esta información repercutió inmediatamente en el mercado bursátil. Las acciones del Grupo Bioceres en el Nasdaq de los Estados Unidos llegaron a experimentar una suba del 26% </p>
+        <p> Bioceres integra el grupo Bioceres Crop Solutions (Biox), donde participan capitales argentinos. Está formado en un 50% por Bioceres, donde confluyen unos 300 productores agropecuarios y empresarios reconocidos como Hugo Sigman y Gustavo Grobocopatel. El otro 50% está en manos del mercado.</b> </p>
+        <p> Trucco planteó en su momento que “esta tecnología puede ser utilizada en casi 80 millones de hectáreas de soja, el 80% de lo que es la superficie mundial, y es sorprendente” y detalló que “no hay antecedente de compañías de Latinoamérica o que no sean de Norteamérica que hayan logrado ese lugar”. </p>
+        <p> La tecnología argentina que llegará al mercado de la mano de Bioceres, permitirá estabilizar los rindes en zonas con estrés hídrico recurrente. Los ensayos demuestran que mejora los resultados en un 13% en promedio en condiciones de estrés pudiendo alcanzar hasta un 30% en condiciones de sequía severa. </p>
+        <p> Emprendedores </p>
+        <p> Bioceres es una de las fundadoras de SF500, el fondo de inversión que apoya a proyectos y emprendedores de base científico tecnológicas. La iniciativa que cuenta con la participación de otras empresas e integra la provincia de Santa Fe busca crear 500 nuevas start up de base científica tecnológica en los próximos 10 años. </p>
     </section>
     <!-- Anexo de etiquetas -->
-    <div> 
+    <div class="etiquetas"> 
         <button> 
-            <a href="https://www.lacapital.com.ar/newell-a32681.html"> Newell </a>
+            <a href="https://www.lacapital.com.ar/bioceres-a23315.html"> Bioceres </a>
         </button>
         <button>
-            <a href="https://www.lacapital.com.ar/restaurantes-a24467.html"> Restaurantes </a>
+            <a href="https://www.lacapital.com.ar/soja-a22774.html"> Soja </a>
         </button>
         <button>
-            <a href="https://www.lacapital.com.ar/carnes-a50314.html"> Carnes </a>
+            <a href="https://www.lacapital.com.ar/sequia-a29328.html"> Sequia </a>
         </button>
     </div>
     <!-- Footer con links a distintos diarios -->
-    <footer style="background-color: grey;">
+    <footer class="pieDePagina">
         <div>
-            <img src="images/Logo_de_La_Capital_de_Rosario.svg.png" alt="LogoLaCapital" width="200", height="100">
+            <img src="Imagenes/Logo_de_La_Capital_de_Rosario.svg.png" alt="LogoLaCapital">
         </div>
         <div>
             <ul>
