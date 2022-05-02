@@ -1,5 +1,7 @@
 .headerSup{
+    margin-top: 5px;
     text-align: center;
+    margin-bottom: 5px;
 }
 .headerSup a {
     color: #000000;
@@ -30,6 +32,15 @@
     height: auto;
     margin-left: 85%;
 }
+
+.navBar {
+    margin-top: 5px;
+    text-align: center;
+}
+.navBar a {
+    margin-left: 10px;
+}
+
 .redesSociales {
     float: right;
 }
