@@ -9,7 +9,7 @@
 </head>
 <body>
     <header> <!-- Encabezado de la pagina -->
-        <div class="headerSup">
+        <div class="cabecera">
             <a href="https://inmuebles.lacapital.com.ar/"> INMUEBLES </a>
             <a href="https://motores.lacapital.com.ar/motores/"> MOTORES </a>
             <a href="https://www.lacapital.com.ar/secciones/trabajo.html"> TRABAJO </a>
@@ -19,16 +19,20 @@
         <!-- Contenedor con imagen del logo y botones-->
             <div class="headerMidLogo">
                 <div class="logoLeft">
-                    <button> Menu </button>
-                    <button> Notificaciones </button>
+                    <button>
+                        <img src="imagenes/iconMenu.png" alt="iconMenu">
+                    </button>
+                    <button>
+                        <img src="imagenes/iconNotificaciones.png" alt="iconNotif">
+                    </button>
                 </div>
                 <!-- Imagen del Logo -->
                 <div class="logoCenter">
-                    <img src="Imagenes/Logo_de_La_Capital_de_Rosario.svg.png" alt="LogoLaCapital" width="300" height="50">
+                    <img src="Imagenes/Logo_de_La_Capital_de_Rosario.svg.png" alt="LogoLaCapital">
                 </div>
                 <div class="logoRight">
-                    <button> Subscribirme </button>
-                    <button> Ingresar </button>
+                    <button type="button" class="btnSubs" id="suscribirme"> Subscribirme </button>
+                    <button type="button" class="btnLogin" id="ingresar"> Ingresar </button>
                 </div>
             </div>
         <!-- Barra de menu-->
@@ -47,13 +51,29 @@
     <div class="redesSociales">
         <ul>
             <li>
-                
+                <img src="Imagenes/iconFB.png" alt="iconoFacebook">
+                <a href="https://www.facebook.com"></a>
             </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+                <img src="Imagenes/iconTw.png" alt="iconoFacebook">
+                <a href="https://www.twitter.com"></a>
+            </li>
+            <li>
+                <img src="Imagenes/iconWSP.png" alt="iconoFacebook">
+                <a href="https://www.whatsapp.com"></a>
+            </li>
+            <li>
+                <img src="Imagenes/iconTelegram.png" alt="iconoFacebook">
+                <a href="https://www.telegram.com"></a>
+            </li>
+            <li>
+                <img src="Imagenes/iconMessenger.png" alt="iconoFacebook">
+                <a href="https://www.facebook.com"></a>
+            </li>
+            <li>
+                <img src="Imagenes/iconMail.png" alt="iconoFacebook">
+                <a href="https://www.outlook.com"></a>
+            </li>
         </ul>
     </div>
     <!-- Cuerpo de la noticia -->
@@ -79,9 +99,10 @@
         <div>
             <p>En una publicación en redes sociales la empresa con sede en Rosario y que cotiza en Wall Street, confirmó la noticia y detalló que “se trata de la primera vez que China aprueba un desarrollo transgénico argentino”.</p>
         </div>
-        <div>
-            <div></div>
-            <div></div>
+        <div class="noticiasTexto">
+            <a href="https://www.lacapital.com.ar/economia/omar-perotti-celebro-la-aprobacion-china-la-soja-resistente-la-sequia-la-bioceres-n10014639.html"> Perotti celebró la aprobación de China de la soja resistente a la sequía de la Bioceres </a>
+            <a href="https://www.lacapital.com.ar/dia-del-trabajador/los-jovenes-el-eslabon-mas-debil-del-mercado-laboral-n10014254.html"> Los jóvenes, el eslabón más débil del mercado laboral </a>
+            
         </div>
         <p> La soja HB4 tolerante a sequía fue aprobada en 2015 por Argentina y luego también por los países de mayor producción mundial de este cultivo como Estados Unidos, Brasil y Paraguay en el año 2019 y Canadá en 2021. </p>
         <p> La tecnología HB4 se desarrolló a partir de un descubrimiento realizado por profesionales de la Universidad Nacional del Litoral y el Consejo Nacional de Investigaciones Científicas y Técnicas (Conicet) liderados por la doctora Raquel Chan. En las etapas tempranas de este proyecto, Bioceres, obtuvo la licencia para desarrollar la tecnología en especies de interés agronómico, iniciar estudios a campo y realizar todos los procesos necesarios para que los distintos cultivos modificados alcancen el mercado. </p>
@@ -116,36 +137,40 @@
         </button>
     </div>
     <!-- Footer con links a distintos diarios -->
-    <footer class="pieDePagina">
-        <div>
-            <img src="Imagenes/Logo_de_La_Capital_de_Rosario.svg.png" alt="LogoLaCapital">
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="https://www.lacapital.com.ar/"> Diario la Capital </a>
-                </li>
-                <li>
-                    <a href="https://www.unosantafe.com.ar/"> Diario Uno Santa Fe </a>
-                </li>
-                <li>
-                    <a href="https://www.unoentrerios.com.ar/"> Diario Uno Entre Rios </a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li>
-                    <a href="https://www.lt8.com.ar/"> La Ocho AM830 </a>
-                </li>
-                <li>
-                    <a href="http://www.laredrosario.com/"> La Red Rosario FM 98.3 </a>
-                </li>
-                <li>
-                    <a href="https://lt15concordia.com.ar/"> LT15 Concordia AM560 </a>
-                </li>
-            </ul>
-        </div>
+    <footer>
+        <nav>
+            <div class="contCentradoFooter">
+                <div class="imgLista">
+                    <img src="Imagenes/logoFondoAzul.png" alt="LogoLaCapital">
+                </div>
+                <div>
+                    <ul class="listFooter">
+                        <li>
+                            <a href="https://www.lacapital.com.ar/"> Diario la Capital </a>
+                        </li>
+                        <li>
+                            <a href="https://www.unosantafe.com.ar/"> Diario Uno Santa Fe </a>
+                        </li>
+                        <li>
+                            <a href="https://www.unoentrerios.com.ar/"> Diario Uno Entre Rios </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="listFooter">
+                        <li>
+                            <a href="https://www.lt8.com.ar/"> La Ocho AM830 </a>
+                        </li>
+                        <li>
+                            <a href="http://www.laredrosario.com/"> La Red Rosario FM 98.3 </a>
+                        </li>
+                        <li>
+                            <a href="https://lt15concordia.com.ar/"> LT15 Concordia AM560 </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </footer>
 </body>
 </html>
