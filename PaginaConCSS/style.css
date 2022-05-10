@@ -1,168 +1,168 @@
-.cabecera{
-    margin-top: 5px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-.cabecera a {
-    font-family: "Arimo",sans-serif;
-    font-size: 12px;
-    line-height: 1;
-    padding: 0 12px;
-    color: #000A2F;
-    text-decoration: none;
-}
-.headerMidLogo {
-    display: block;
-    width: auto;
-    height: auto;
-
-}
-.logoLeft {
-    display: block;
-    width: auto;
-    height: auto;
-}
-.logoLeft button {
-    background-color: #FFF;
-}
-.logoCenter {
-    display: block;
-    width: auto;
-    height: auto;
-    text-align: center;
-}
-.logoCenter img {
-    width: 300px;
-    height: 50px;
-}
-.logoRight {
-    display: block;
-    width: auto;
-    height: auto;  
-    margin-left: 83%;
-}
-.logoRight button {
-    cursor: pointer;
-    margin-bottom: 5px;
-}
-.btnSubs {
-    color: #FFF;
-    width: 115px;
-    height: 35px;
-    font-weight: bold;
-    border-style: none;
-    border-radius: 4px;
-    background-color: #3B96FF;
-    font-size: .9rem;
-}
-.btnLogin {
-    background-color: #FFF;
-    color: #000000;
-    width: 90px;
-    height: 35px;
-    font-weight: bold;
-    border-radius: 4px;
-    font-size: .8rem;
-    border-style: none;
-    border: 1px solid #a8aab3;
-}
-.navBar {
-    background-color: #000A2F;
-    position: block;
-    height: 50px;
-    padding: 0 30px;
-    text-align: center;
-    justify-content: center;
-}
-.navBar ul {
-    max-width: 900px;
-    height: 100%;
-    margin: 0 auto;
-}
-.navBar li {
-    display: list-item;
-}
-.navBar a {
-    font-family: "Noto serif",serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 1;
-    color: #FFF;
-    text-decoration: none;
-    margin-left: 10px;
-}
-.noticiasTexto {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-}
-.noticiasTexto div {
-    width: 200px;
-}
-.noticiasTexto a {
-    margin-left: 50px;
-    text-decoration: none;
-}
-.redesSociales {
-    float: right;
-    margin-right: 10px;
-}
-.redesSociales li {
-    list-style: none;
-}
-
-h2 {
-    margin-right: 35%;
-}
-.contenedorTexto {
-    display: block;
-    margin-right: 20%;
-}
-/* Etiquetas */
-.etiquetas {
-    margin-top: 50px;
-}
-.etiquetas button {
-    margin-left: 10px;
+@media screen and (min-width: 992px) {
     
-}
-/* Pie de pagina */
-footer {
-    display: block;
-    justify-content: flex-start;
-    align-items: center;
-    width: auto;
-    height: 5vh;
-    flex-direction: column;
-    
-}
+    .cabecera{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .cabecera a {
+        padding: 0 12px;
+        font-family: "Arimo",sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        line-height: 1;
+        color: #000A2F;
+    }
+    .headerMidLogo {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .logoLeft {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .logoLeft button {
+        background-color: #FFF;
+    }
+    .logoCenter {
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .logoCenter img {
+        width: 300px;
+        height: 50px;
+    }
+    .logoRight {
+        display: block;
+        margin-left: 83%;
+        width: auto;
+        height: auto;  
+    }
+    .logoRight button {
+        cursor: pointer;
+        margin-bottom: 5px;
+    }
+    .btnSubs {
+        width: 115px;
+        height: 35px;
+        border-style: none;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: .9rem;
+        color: #FFF;
+        background-color: #3B96FF;
+    }
+    .btnLogin {
+        width: 90px;
+        height: 35px;
+        border-style: none;
+        border-radius: 4px;
+        border: 1px solid #a8aab3;
+        font-weight: bold;
+        font-size: .8rem;
+        background-color: #FFF;
+        color: #000000;
+    }
+    .navBar {
+        padding: 0 30px;
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+        background-color: #000A2F;
+    }
+    .navBar ul {
+        max-width: 900px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .navBar li {
+        display: list-item;
+    }
+    .navBar a {
+        margin-left: 10px;
+        font-family: "Noto serif",serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1;
+        text-decoration: none;
+        color: #FFF;
+    }
+    .noticiasTexto {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+    }
+    .noticiasTexto div {
+        width: 200px;
+    }
+    .noticiasTexto a {
+        margin-left: 50px;
+        text-decoration: none;
+    }
+    .redesSociales {
+        float: right;
+        margin-right: 10px;
+    }
+    .redesSociales li {
+        list-style: none;
+    }
 
-.contCentradoFooter {
-    background-color: #000A2F;
-    display: flex;
-    width: 1500px;
-    margin-top: 3rem;
-}
+    h2 {
+        margin-right: 35%;
+    }
+    .contenedorTexto {
+        display: block;
+        margin-right: 20%;
+    }
+    /* Etiquetas */
+    .etiquetas {
+        margin-top: 50px;
+    }
+    .etiquetas button {
+        margin-left: 10px;
+        
+    }
+    /* Pie de pagina */
+    footer {
+        display: block;
+        width: auto;
+        height: 5vh;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.imgLista img {
-    width: 185px;
-    height: 60px;
-}
+    .contCentradoFooter {
+        display: flex;
+        width: 1500px;
+        margin-top: 3rem;
+        background-color: #000A2F;
+    }
 
-.listFooter {
-    text-decoration: none;
-    font-size: 1.5rem;
-    margin-right: 50px;
-}
+    .imgLista img {
+        width: 185px;
+        height: 60px;
+    }
 
-.listFooter li {
-    list-style: none;
-    margin-top: 1rem;
-}
+    .listFooter {
+        margin-right: 50px;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
 
-.listFooter li a {
-    font-size: 14px;
-    line-height: 22px;
-    font-family: "Arimo",sans-serif;
-    text-decoration: none;
-    color: #FFF;
+    .listFooter li {
+        margin-top: 1rem;
+        list-style: none;
+    }
+
+    .listFooter li a {
+        font-family: "Arimo",sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        text-decoration: none;
+        color: #FFF;
+    }
 }
